@@ -1,0 +1,158 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 7,
+    "maxPage": 1,
+    "itemsTotal": 7
+  },
+  "generatedAt": "2026-11-23T11:00:00Z",
+  "packages": [
+    {
+      "id": "io.github.danzig666.ytnative",
+      "title": "ytnative",
+      "shortDescription": "Native YouTube client for LG webOS.",
+      "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
+      "manifest": {
+        "id": "io.github.danzig666.ytnative",
+        "version": "0.2.71",
+        "type": "native",
+        "title": "ytnative",
+        "appDescription": "Native YouTube client for LG webOS.",
+        "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
+        "sourceUrl": "https://github.com/danzig666/ytnative",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.71/io.github.danzig666.ytnative_0.2.71_arm.ipk",
+        "ipkHash": {
+          "sha256": "af46c5136f65c23bd67dc4c281dee205dcce24899e3e097e6bcde55bcc6a65ff"
+        },
+        "ipkSize": 14350248
+      }
+    },
+    {
+      "id": "io.github.betterstremio.origin",
+      "title": "Origin",
+      "shortDescription": "Stremio and Nuvio client for LG webOS.",
+      "iconUri": "https://betterstremio.github.io/webos/icon.png",
+      "manifest": {
+        "id": "io.github.betterstremio.origin",
+        "version": "3.0.11",
+        "type": "native",
+        "title": "Origin",
+        "appDescription": "Stremio and Nuvio client for LG webOS.",
+        "iconUri": "https://betterstremio.github.io/webos/icon.png",
+        "sourceUrl": "https://github.com/betterstremio/origin",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/betterstremio/origin/releases/download/v3.0.11/io.github.betterstremio.origin_3.0.11_arm.ipk",
+        "ipkHash": {
+          "sha256": "7742d97a71d1e7033fdb8fdb0dbe4e41f3f1eadd869c107d273ee1677a4cd60c"
+        },
+        "ipkSize": 5554046
+      }
+    },
+    {
+      "id": "app.pley.tv",
+      "title": "Pley",
+      "shortDescription": "Pley media player for LG webOS.",
+      "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
+      "manifest": {
+        "id": "app.pley.tv",
+        "version": "0.1.13",
+        "type": "native",
+        "title": "Pley",
+        "appDescription": "Pley media player for LG webOS.",
+        "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/pley-media-server/pley",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/pley-media-server/pley/releases/download/release-2026-11-22/pley-lg-0.1.13.ipk",
+        "ipkHash": {
+          "sha256": "3825f4500d24638f69985470b0b2b6ea2645a2acb128acf79e31acf0dd9f6271"
+        },
+        "ipkSize": 5637852
+      }
+    },
+    {
+      "id": "com.beb.plxnative",
+      "title": "PlxNative",
+      "shortDescription": "Unofficial native Plex client for LG webOS.",
+      "iconUri": "https://raw.githubusercontent.com/plxnative/plx-native/main/pkg/largeIcon.png",
+      "manifest": {
+        "id": "com.beb.plxnative",
+        "version": "0.10.1",
+        "type": "native",
+        "title": "PlxNative",
+        "appDescription": "Unofficial native Plex client for LG webOS.",
+        "iconUri": "https://raw.githubusercontent.com/plxnative/plx-native/main/pkg/largeIcon.png",
+        "sourceUrl": "https://github.com/plxnative/plx-native",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/plxnative/plx-native/releases/download/v0.10.1/com.beb.plxnative_0.10.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "759a52f4b30f432659aca69ed8eb29c6535d00731eee15463a0cfc318bc78fac"
+        },
+        "ipkSize": 21070454
+      }
+    },
+    {
+      "id": "twitch.adamffdev.v1",
+      "title": "Twitch AdFree",
+      "shortDescription": "Twitch app for LG webOS with ad-blocking features.",
+      "iconUri": "https://raw.githubusercontent.com/adamff-dev/twitch-adfree-webos/main/assets/largeIcon.png",
+      "manifest": {
+        "id": "twitch.adamffdev.v1",
+        "version": "1.6.6",
+        "type": "web",
+        "title": "Twitch AdFree",
+        "appDescription": "Twitch app for LG webOS with ad-blocking features.",
+        "iconUri": "https://raw.githubusercontent.com/adamff-dev/twitch-adfree-webos/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/adamff-dev/twitch-adfree-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/adamff-dev/twitch-adfree-webos/releases/download/1.6.6/twitch.adamffdev.v1_1.6.6_all.ipk",
+        "ipkHash": {
+          "sha256": "12033cbe503026a36d75112f97ed6bc816021eab38013e2a8c14d23d8d96ecc4"
+        },
+        "ipkSize": 354550
+      }
+    },
+    {
+      "id": "org.webosbrew.inputhook",
+      "title": "LG Input Hook",
+      "shortDescription": "Remap buttons on an LG webOS remote control.",
+      "iconUri": "https://raw.githubusercontent.com/Simon34545/lginputhook/main/assets/largeIcon.png",
+      "manifest": {
+        "id": "org.webosbrew.inputhook",
+        "version": "1.5.1",
+        "type": "web",
+        "title": "LG Input Hook",
+        "appDescription": "Remap buttons on an LG webOS remote control.",
+        "iconUri": "https://raw.githubusercontent.com/Simon34545/lginputhook/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/Simon34545/lginputhook",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/Simon34545/lginputhook/releases/download/v1.5.1/org.webosbrew.inputhook_1.5.1_all.ipk",
+        "ipkHash": {
+          "sha256": "604d556a932ec60cee1f041b144aa03d3b49043212568d4cc5bd5854c7ac88ec"
+        },
+        "ipkSize": 2872470
+      }
+    },
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube RF1705",
+      "shortDescription": "YouTube for LG webOS with ad-blocking and SponsorBlock support.",
+      "iconUri": "https://raw.githubusercontent.com/RF1705/youtube-webos-cobalt-adfree/main/assets/largeIcon.png",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "2.0.1",
+        "type": "native",
+        "title": "YouTube RF1705",
+        "appDescription": "YouTube for LG webOS with ad-blocking and SponsorBlock support.",
+        "iconUri": "https://raw.githubusercontent.com/RF1705/youtube-webos-cobalt-adfree/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/RF1705/youtube-webos-cobalt-adfree",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/RF1705/youtube-webos-cobalt-adfree/releases/download/v2.0.1/youtube.leanback.v4_2.0.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "fb245ba5f8f2be2bb980889a29445efcd3e5a07704fbf12ec9874285adc17851"
+        },
+        "ipkSize": 14741026
+      }
+    }
+  ]
+}

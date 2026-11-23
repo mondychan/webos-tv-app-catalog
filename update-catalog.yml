@@ -1,0 +1,54 @@
+name: Update Glasshouse app catalogue
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "catalog-sources.json"
+      - "scripts/update_catalog.py"
+      - ".github/workflows/update-catalog.yml"
+  schedule:
+    # Check upstream releases four times a day. GitHub may delay scheduled jobs
+    # during periods of high load.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-glasshouse-catalogue
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out catalogue
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Regenerate repo.json from latest stable releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_catalog.py
+
+      - name: Validate JSON
+        run: python -m json.tool repo.json > /dev/null
+
+      - name: Commit and publish changes
+        run: |
+          if git diff --quiet -- repo.json; then
+            echo "Catalogue is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo.json
+          git commit -m "chore(catalog): refresh application versions"
+          git push
