@@ -15,6 +15,7 @@ Katalog aktuálně sleduje tyto aplikace:
 | Twitch AdFree | `twitch.adamffdev.v1` | [adamff-dev/twitch-adfree-webos](https://github.com/adamff-dev/twitch-adfree-webos) |
 | LG Input Hook | `org.webosbrew.inputhook` | [Simon34545/lginputhook](https://github.com/Simon34545/lginputhook) |
 | YouTube RF1705 | `youtube.leanback.v4` | [RF1705/youtube-webos-cobalt-adfree](https://github.com/RF1705/youtube-webos-cobalt-adfree) |
+| NHK World | `org.mondy.nhkworld` | [mondychan/nhk-world](https://github.com/mondychan/nhk-world) |
 
 Všechny položky jsou vybírány jako stabilní vydání. Skript vyhledá přesně pojmenovaný webOS IPK soubor, načte jeho SHA-256 z GitHub Release API (případně jej dopočítá stažením balíčku) a vytvoří manifest, který Glasshouse umí zpracovat.
 
@@ -84,7 +85,7 @@ git push
 ## Co záměrně není v katalogu
 
 - **Homebar** – upstream vydává archiv `rawin-launcher.tar.gz`, nikoli samostatný webOS `.ipk` s kontrolním součtem. Glasshouse katalogový instalátor očekává IPK, proto jej nelze bezpečně přidat stejným způsobem.
-- **NHK World** – lokální instalace bez dohledatelného veřejného repozitáře a stabilního vydání.
+- **NHK World** – vlastní webOS aplikace publikovaná v [mondychan/nhk-world](https://github.com/mondychan/nhk-world), sledovaná přes stabilní GitHub Releases.
 - **Oneplay, iVysílání ČT, SKYLINK Live TV CZ, Sledovani.tv a SledovaniTV 2.0** – jde o poskytovatelské aplikace, u nichž byly balíčky získané z LG Content Store a dešifrované pomocí NCG autorizace televizoru. Nejsou k dispozici jako běžné veřejné, samostatně ověřitelné IPK release balíčky, které by šlo bezpečně distribuovat přes tento katalog.
 
 ## Bezpečnost a důvěra

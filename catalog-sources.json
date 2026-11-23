@@ -78,6 +78,17 @@
       "assetPattern": "^youtube\\.leanback\\.v4_(?P<version>\\d+\\.\\d+\\.\\d+)_arm\\.ipk$",
       "iconUri": "https://raw.githubusercontent.com/RF1705/youtube-webos-cobalt-adfree/main/assets/largeIcon.png",
       "rootRequired": false
+    },
+    {
+      "id": "org.mondy.nhkworld",
+      "title": "NHK World",
+      "description": "NHK WORLD-JAPAN live stream for LG webOS.",
+      "vendor": "mondychan",
+      "type": "web",
+      "repository": "mondychan/nhk-world",
+      "assetPattern": "^org\\.mondy\\.nhkworld_(?P<version>\\d+\\.\\d+\\.\\d+)_all\\.ipk$",
+      "iconUri": "https://raw.githubusercontent.com/mondychan/nhk-world/main/icon.png",
+      "rootRequired": false
     }
   ]
 }
