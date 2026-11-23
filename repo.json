@@ -1,11 +1,11 @@
 {
   "paging": {
     "page": 1,
-    "count": 7,
+    "count": 8,
     "maxPage": 1,
-    "itemsTotal": 7
+    "itemsTotal": 8
   },
-  "generatedAt": "2026-11-23T11:36:07Z",
+  "generatedAt": "2026-11-23T11:51:19Z",
   "packages": [
     {
       "id": "io.github.danzig666.ytnative",
@@ -152,6 +152,27 @@
           "sha256": "fb245ba5f8f2be2bb980889a29445efcd3e5a07704fbf12ec9874285adc17851"
         },
         "ipkSize": 14741026
+      }
+    },
+    {
+      "id": "org.mondy.nhkworld",
+      "title": "NHK World",
+      "shortDescription": "NHK WORLD-JAPAN live stream for LG webOS.",
+      "iconUri": "https://raw.githubusercontent.com/mondychan/nhk-world/main/icon.png",
+      "manifest": {
+        "id": "org.mondy.nhkworld",
+        "version": "1.0.0",
+        "type": "web",
+        "title": "NHK World",
+        "appDescription": "NHK WORLD-JAPAN live stream for LG webOS.",
+        "iconUri": "https://raw.githubusercontent.com/mondychan/nhk-world/main/icon.png",
+        "sourceUrl": "https://github.com/mondychan/nhk-world",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/mondychan/nhk-world/releases/download/v1.0.0/org.mondy.nhkworld_1.0.0_all.ipk",
+        "ipkHash": {
+          "sha256": "10102dab3a5470fe9527098f9801eb888e2d13e3632fe38dad0f7a2307fad162"
+        },
+        "ipkSize": 6768
       }
     }
   ]
