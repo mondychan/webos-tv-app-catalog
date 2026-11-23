@@ -82,12 +82,6 @@ git commit -m "chore(catalog): refresh application versions"
 git push
 ```
 
-## Co záměrně není v katalogu
-
-- **Homebar** – upstream vydává archiv `rawin-launcher.tar.gz`, nikoli samostatný webOS `.ipk` s kontrolním součtem. Glasshouse katalogový instalátor očekává IPK, proto jej nelze bezpečně přidat stejným způsobem.
-- **NHK World** – vlastní webOS aplikace publikovaná v [mondychan/nhk-world](https://github.com/mondychan/nhk-world), sledovaná přes stabilní GitHub Releases.
-- **Oneplay, iVysílání ČT, SKYLINK Live TV CZ, Sledovani.tv a SledovaniTV 2.0** – jde o poskytovatelské aplikace, u nichž byly balíčky získané z LG Content Store a dešifrované pomocí NCG autorizace televizoru. Nejsou k dispozici jako běžné veřejné, samostatně ověřitelné IPK release balíčky, které by šlo bezpečně distribuovat přes tento katalog.
-
 ## Bezpečnost a důvěra
 
 Přidáním katalogu dáváš Glasshouse možnost nabídnout instalaci balíčků uvedených v tomto repozitáři. Katalog proto obsahuje pouze pevně definované oficiální upstream repozitáře, přesně vybrané IPK artefakty a SHA-256 kontrolní součty. Skript neinstaluje žádné aplikace sám; pouze udržuje katalogová metadata. Samotnou instalaci nebo aktualizaci stále potvrzuješ v Glasshouse.
