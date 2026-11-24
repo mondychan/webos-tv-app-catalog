@@ -5,7 +5,7 @@
     "maxPage": 1,
     "itemsTotal": 8
   },
-  "generatedAt": "2026-11-23T23:49:23Z",
+  "generatedAt": "2026-11-24T09:49:01Z",
   "packages": [
     {
       "id": "io.github.danzig666.ytnative",
@@ -14,18 +14,18 @@
       "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
       "manifest": {
         "id": "io.github.danzig666.ytnative",
-        "version": "0.2.72",
+        "version": "0.2.73",
         "type": "native",
         "title": "ytnative",
         "appDescription": "Native YouTube client for LG webOS.",
         "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
         "sourceUrl": "https://github.com/danzig666/ytnative",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.72/io.github.danzig666.ytnative_0.2.72_arm.ipk",
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.73/io.github.danzig666.ytnative_0.2.73_arm.ipk",
         "ipkHash": {
-          "sha256": "79bf14b866fb2b2e4ce758581eb27ff7f206c5a637478a07fe205a9f49e6555e"
+          "sha256": "c000eb78004a8a53c17f33452d876860e572e16a8e335fe549128f131403f1fb"
         },
-        "ipkSize": 14377220
+        "ipkSize": 14807968
       }
     },
     {
