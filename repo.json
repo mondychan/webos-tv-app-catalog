@@ -5,7 +5,7 @@
     "maxPage": 1,
     "itemsTotal": 8
   },
-  "generatedAt": "2026-11-25T08:24:48Z",
+  "generatedAt": "2026-11-25T21:37:44Z",
   "packages": [
     {
       "id": "io.github.danzig666.ytnative",
@@ -14,18 +14,18 @@
       "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
       "manifest": {
         "id": "io.github.danzig666.ytnative",
-        "version": "0.2.73",
+        "version": "0.2.74",
         "type": "native",
         "title": "ytnative",
         "appDescription": "Native YouTube client for LG webOS.",
         "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
         "sourceUrl": "https://github.com/danzig666/ytnative",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.73/io.github.danzig666.ytnative_0.2.73_arm.ipk",
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.74/io.github.danzig666.ytnative_0.2.74_arm.ipk",
         "ipkHash": {
-          "sha256": "c000eb78004a8a53c17f33452d876860e572e16a8e335fe549128f131403f1fb"
+          "sha256": "ebf6fd9b71e3b1eeba5656e6568386e4876a7294e63578a9133af07cc0b16c96"
         },
-        "ipkSize": 14807968
+        "ipkSize": 14808546
       }
     },
     {
@@ -56,18 +56,18 @@
       "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
       "manifest": {
         "id": "app.pley.tv",
-        "version": "0.1.14",
+        "version": "0.1.15",
         "type": "native",
         "title": "Pley",
         "appDescription": "Pley media player for LG webOS.",
         "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
         "sourceUrl": "https://github.com/pley-media-server/pley",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/pley-media-server/pley/releases/download/release-2026-11-24/pley-lg-0.1.14.ipk",
+        "ipkUrl": "https://github.com/pley-media-server/pley/releases/download/release-2026-11-25/pley-lg-0.1.15.ipk",
         "ipkHash": {
-          "sha256": "875d2d2e164a87beabac8e294a8c370bc42a03e568d8a3fec0e22938d5fa43ce"
+          "sha256": "a5ef5d0af4d1357e0de003fdbe42a739f970757e53378b6fdbc2f09d4c3e939d"
         },
-        "ipkSize": 5644158
+        "ipkSize": 5648036
       }
     },
     {
