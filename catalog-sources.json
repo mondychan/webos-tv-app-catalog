@@ -89,6 +89,17 @@
       "assetPattern": "^org\\.mondy\\.nhkworld_(?P<version>\\d+\\.\\d+\\.\\d+)_all\\.ipk$",
       "iconUri": "https://raw.githubusercontent.com/mondychan/nhk-world/main/icon.png",
       "rootRequired": false
+    },
+    {
+      "id": "com.lennylxx.iptv",
+      "title": "webOS IPTV Player",
+      "description": "IPTV player for LG webOS with M3U, Xtream, XMLTV, and catch-up support.",
+      "vendor": "lennylxx",
+      "type": "web",
+      "repository": "lennylxx/webos-iptv-player",
+      "assetPattern": "^com\\.lennylxx\\.iptv_(?P<version>\\d+\\.\\d+\\.\\d+)_all\\.ipk$",
+      "iconUri": "https://raw.githubusercontent.com/lennylxx/webos-iptv-player/main/assets/icon130.png",
+      "rootRequired": false
     }
   ]
 }

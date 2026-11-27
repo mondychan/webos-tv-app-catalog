@@ -16,6 +16,7 @@ Katalog aktuálně sleduje tyto aplikace:
 | LG Input Hook | `org.webosbrew.inputhook` | [Simon34545/lginputhook](https://github.com/Simon34545/lginputhook) |
 | YouTube RF1705 | `youtube.leanback.v4` | [RF1705/youtube-webos-cobalt-adfree](https://github.com/RF1705/youtube-webos-cobalt-adfree) |
 | NHK World | `org.mondy.nhkworld` | [mondychan/nhk-world](https://github.com/mondychan/nhk-world) |
+| webOS IPTV Player | `com.lennylxx.iptv` | [lennylxx/webos-iptv-player](https://github.com/lennylxx/webos-iptv-player) |
 
 Všechny položky jsou vybírány jako stabilní vydání. Skript vyhledá přesně pojmenovaný webOS IPK soubor, načte jeho SHA-256 z GitHub Release API (případně jej dopočítá stažením balíčku) a vytvoří manifest, který Glasshouse umí zpracovat.
 

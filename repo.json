@@ -1,11 +1,11 @@
 {
   "paging": {
     "page": 1,
-    "count": 8,
+    "count": 9,
     "maxPage": 1,
-    "itemsTotal": 8
+    "itemsTotal": 9
   },
-  "generatedAt": "2026-11-27T08:20:10Z",
+  "generatedAt": "2026-11-27T15:10:28Z",
   "packages": [
     {
       "id": "io.github.danzig666.ytnative",
@@ -14,18 +14,18 @@
       "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
       "manifest": {
         "id": "io.github.danzig666.ytnative",
-        "version": "0.2.75",
+        "version": "0.2.76",
         "type": "native",
         "title": "ytnative",
         "appDescription": "Native YouTube client for LG webOS.",
         "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/main/crates/app/pkg/largeIcon.png",
         "sourceUrl": "https://github.com/danzig666/ytnative",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.75/io.github.danzig666.ytnative_0.2.75_arm.ipk",
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.76/io.github.danzig666.ytnative_0.2.76_arm.ipk",
         "ipkHash": {
-          "sha256": "a2666641acc2d92e912f48d0f1ae0cd6dcda1be1f4efaf2e5c5c191a9e0e2f9e"
+          "sha256": "625a50ec5b83d6b9f9dcd5c20b057c038a6fd07a35bfe120e0f4ebd83d4a8a87"
         },
-        "ipkSize": 14828470
+        "ipkSize": 15274232
       }
     },
     {
@@ -173,6 +173,27 @@
           "sha256": "10102dab3a5470fe9527098f9801eb888e2d13e3632fe38dad0f7a2307fad162"
         },
         "ipkSize": 6768
+      }
+    },
+    {
+      "id": "com.lennylxx.iptv",
+      "title": "webOS IPTV Player",
+      "shortDescription": "IPTV player for LG webOS with M3U, Xtream, XMLTV, and catch-up support.",
+      "iconUri": "https://raw.githubusercontent.com/lennylxx/webos-iptv-player/main/assets/icon130.png",
+      "manifest": {
+        "id": "com.lennylxx.iptv",
+        "version": "1.18.0",
+        "type": "web",
+        "title": "webOS IPTV Player",
+        "appDescription": "IPTV player for LG webOS with M3U, Xtream, XMLTV, and catch-up support.",
+        "iconUri": "https://raw.githubusercontent.com/lennylxx/webos-iptv-player/main/assets/icon130.png",
+        "sourceUrl": "https://github.com/lennylxx/webos-iptv-player",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/lennylxx/webos-iptv-player/releases/download/v1.18.0/com.lennylxx.iptv_1.18.0_all.ipk",
+        "ipkHash": {
+          "sha256": "d8e54e89cc93df6d82f7dbcb4f10b901d3b9143a1f14b5970ceb34753729532b"
+        },
+        "ipkSize": 827838
       }
     }
   ]
