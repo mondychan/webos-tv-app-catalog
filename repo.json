@@ -5,7 +5,7 @@
     "maxPage": 1,
     "itemsTotal": 9
   },
-  "generatedAt": "2026-11-27T15:10:45Z",
+  "generatedAt": "2026-11-27T17:40:57Z",
   "packages": [
     {
       "id": "io.github.danzig666.ytnative",
@@ -56,18 +56,18 @@
       "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
       "manifest": {
         "id": "app.pley.tv",
-        "version": "0.1.15",
+        "version": "0.1.16",
         "type": "native",
         "title": "Pley",
         "appDescription": "Pley media player for LG webOS.",
         "iconUri": "https://raw.githubusercontent.com/pley-media-server/pley/master/apps/webos/assets/largeIcon.png",
         "sourceUrl": "https://github.com/pley-media-server/pley",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/pley-media-server/pley/releases/download/release-2026-11-25/pley-lg-0.1.15.ipk",
+        "ipkUrl": "https://github.com/pley-media-server/pley/releases/download/release-2026-11-27/pley-lg-0.1.16.ipk",
         "ipkHash": {
-          "sha256": "a5ef5d0af4d1357e0de003fdbe42a739f970757e53378b6fdbc2f09d4c3e939d"
+          "sha256": "ec99c8c420d9d8b989059d34cde8ad57f0fa25b729653eb22e511f00805ffd73"
         },
-        "ipkSize": 5648036
+        "ipkSize": 5671148
       }
     },
     {
